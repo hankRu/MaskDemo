@@ -28,8 +28,6 @@
 		ADB135742418FDF9004BD4C8 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB135732418FDF9004BD4C8 /* ApiManager.swift */; };
 		ADB1357724190138004BD4C8 /* MaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1357624190138004BD4C8 /* MaskViewModel.swift */; };
 		ADB13579241902A8004BD4C8 /* FCUITableView_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB13578241902A8004BD4C8 /* FCUITableView_Extension.swift */; };
-		ADB1357E24190315004BD4C8 /* FCLoadingDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADB1357C24190315004BD4C8 /* FCLoadingDialog.xib */; };
-		ADB1357F24190315004BD4C8 /* FCLoadingDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1357D24190315004BD4C8 /* FCLoadingDialog.swift */; };
 		ADB135822419055C004BD4C8 /* MaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB135802419055C004BD4C8 /* MaskTableViewCell.swift */; };
 		ADB135832419055C004BD4C8 /* MaskTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADB135812419055C004BD4C8 /* MaskTableViewCell.xib */; };
 		ADB1358524190580004BD4C8 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1358424190580004BD4C8 /* TableViewModel.swift */; };
@@ -37,9 +35,11 @@
 		ADB1358A241905FE004BD4C8 /* FCBaseDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADB13588241905FE004BD4C8 /* FCBaseDialog.xib */; };
 		ADB1358C2419072F004BD4C8 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1358B2419072F004BD4C8 /* UIViewExtensions.swift */; };
 		ADB135912419128E004BD4C8 /* CategoryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1358D2419128E004BD4C8 /* CategoryInfo.swift */; };
-		ADB135922419128E004BD4C8 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1358E2419128E004BD4C8 /* CategoryTableViewController.swift */; };
 		ADB135932419128E004BD4C8 /* CategoryTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1358F2419128E004BD4C8 /* CategoryTableCell.swift */; };
-		ADB135942419128E004BD4C8 /* CategoryTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADB135902419128E004BD4C8 /* CategoryTableViewController.xib */; };
+		ADB1359B24192452004BD4C8 /* CategoryTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADB1359924192452004BD4C8 /* CategoryTableViewController.xib */; };
+		ADB1359C24192452004BD4C8 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1359A24192452004BD4C8 /* CategoryTableViewController.swift */; };
+		ADB135A024192518004BD4C8 /* FCLoadingDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADB1359E24192518004BD4C8 /* FCLoadingDialog.xib */; };
+		ADB135A124192518004BD4C8 /* FCLoadingDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB1359F24192518004BD4C8 /* FCLoadingDialog.swift */; };
 		ADF0F17A2418F5AC00DA1CF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF0F1792418F5AC00DA1CF0 /* AppDelegate.swift */; };
 		ADF0F1812418F5AE00DA1CF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF0F1802418F5AE00DA1CF0 /* Assets.xcassets */; };
 		ADF0F1842418F5AE00DA1CF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF0F1822418F5AE00DA1CF0 /* LaunchScreen.storyboard */; };
@@ -67,8 +67,6 @@
 		ADB135732418FDF9004BD4C8 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		ADB1357624190138004BD4C8 /* MaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskViewModel.swift; sourceTree = "<group>"; };
 		ADB13578241902A8004BD4C8 /* FCUITableView_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCUITableView_Extension.swift; sourceTree = "<group>"; };
-		ADB1357C24190315004BD4C8 /* FCLoadingDialog.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FCLoadingDialog.xib; sourceTree = "<group>"; };
-		ADB1357D24190315004BD4C8 /* FCLoadingDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCLoadingDialog.swift; sourceTree = "<group>"; };
 		ADB135802419055C004BD4C8 /* MaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskTableViewCell.swift; sourceTree = "<group>"; };
 		ADB135812419055C004BD4C8 /* MaskTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MaskTableViewCell.xib; sourceTree = "<group>"; };
 		ADB1358424190580004BD4C8 /* TableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
@@ -76,9 +74,11 @@
 		ADB13588241905FE004BD4C8 /* FCBaseDialog.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FCBaseDialog.xib; sourceTree = "<group>"; };
 		ADB1358B2419072F004BD4C8 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		ADB1358D2419128E004BD4C8 /* CategoryInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryInfo.swift; sourceTree = "<group>"; };
-		ADB1358E2419128E004BD4C8 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryTableViewController.swift; path = ../../../../projectpet/StrayAnimals/CategoryVC/CategoryTableViewController.swift; sourceTree = "<group>"; };
 		ADB1358F2419128E004BD4C8 /* CategoryTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableCell.swift; sourceTree = "<group>"; };
-		ADB135902419128E004BD4C8 /* CategoryTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CategoryTableViewController.xib; path = ../../../../projectpet/StrayAnimals/CategoryVC/CategoryTableViewController.xib; sourceTree = "<group>"; };
+		ADB1359924192452004BD4C8 /* CategoryTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryTableViewController.xib; sourceTree = "<group>"; };
+		ADB1359A24192452004BD4C8 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		ADB1359E24192518004BD4C8 /* FCLoadingDialog.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FCLoadingDialog.xib; sourceTree = "<group>"; };
+		ADB1359F24192518004BD4C8 /* FCLoadingDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCLoadingDialog.swift; sourceTree = "<group>"; };
 		ADF0F1762418F5AC00DA1CF0 /* MaskDemoForTL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaskDemoForTL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF0F1792418F5AC00DA1CF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADF0F1802418F5AE00DA1CF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -114,8 +114,8 @@
 			children = (
 				ADB1358D2419128E004BD4C8 /* CategoryInfo.swift */,
 				ADB1358F2419128E004BD4C8 /* CategoryTableCell.swift */,
-				ADB1358E2419128E004BD4C8 /* CategoryTableViewController.swift */,
-				ADB135902419128E004BD4C8 /* CategoryTableViewController.xib */,
+				ADB1359A24192452004BD4C8 /* CategoryTableViewController.swift */,
+				ADB1359924192452004BD4C8 /* CategoryTableViewController.xib */,
 			);
 			path = CountyCategory;
 			sourceTree = "<group>";
@@ -180,19 +180,8 @@
 				ADB1358B2419072F004BD4C8 /* UIViewExtensions.swift */,
 				ADB13578241902A8004BD4C8 /* FCUITableView_Extension.swift */,
 				ADB13586241905FE004BD4C8 /* Base */,
-				ADB1357B24190315004BD4C8 /* LoadingDialog */,
 			);
 			path = Extension;
-			sourceTree = "<group>";
-		};
-		ADB1357B24190315004BD4C8 /* LoadingDialog */ = {
-			isa = PBXGroup;
-			children = (
-				ADB1357C24190315004BD4C8 /* FCLoadingDialog.xib */,
-				ADB1357D24190315004BD4C8 /* FCLoadingDialog.swift */,
-			);
-			name = LoadingDialog;
-			path = ../../../../projectpet/FromOtherProject/LoadingDialog;
 			sourceTree = "<group>";
 		};
 		ADB13586241905FE004BD4C8 /* Base */ = {
@@ -200,9 +189,20 @@
 			children = (
 				ADB13587241905FE004BD4C8 /* FCBaseDialog.swift */,
 				ADB13588241905FE004BD4C8 /* FCBaseDialog.xib */,
+				ADB1359D24192518004BD4C8 /* LoadingDialog */,
 			);
 			path = Base;
 			sourceTree = "<group>";
+		};
+		ADB1359D24192518004BD4C8 /* LoadingDialog */ = {
+			isa = PBXGroup;
+			children = (
+				ADB1359E24192518004BD4C8 /* FCLoadingDialog.xib */,
+				ADB1359F24192518004BD4C8 /* FCLoadingDialog.swift */,
+			);
+			name = LoadingDialog;
+			path = MaskDemoForTL/Extension/LoadingDialog;
+			sourceTree = SOURCE_ROOT;
 		};
 		ADF0F16D2418F5AC00DA1CF0 = {
 			isa = PBXGroup;
@@ -297,12 +297,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADF0F1842418F5AE00DA1CF0 /* LaunchScreen.storyboard in Resources */,
+				ADB135A024192518004BD4C8 /* FCLoadingDialog.xib in Resources */,
 				ADF0F1812418F5AE00DA1CF0 /* Assets.xcassets in Resources */,
 				ADB1358A241905FE004BD4C8 /* FCBaseDialog.xib in Resources */,
+				ADB1359B24192452004BD4C8 /* CategoryTableViewController.xib in Resources */,
 				ADB135832419055C004BD4C8 /* MaskTableViewCell.xib in Resources */,
-				ADB135942419128E004BD4C8 /* CategoryTableViewController.xib in Resources */,
 				ADB1353E2418F858004BD4C8 /* MaskTableViewController.xib in Resources */,
-				ADB1357E24190315004BD4C8 /* FCLoadingDialog.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,14 +331,14 @@
 				ADB135662418FA96004BD4C8 /* NetworkRouter.swift in Sources */,
 				ADB1358C2419072F004BD4C8 /* UIViewExtensions.swift in Sources */,
 				ADB135742418FDF9004BD4C8 /* ApiManager.swift in Sources */,
-				ADB135922419128E004BD4C8 /* CategoryTableViewController.swift in Sources */,
+				ADB1359C24192452004BD4C8 /* CategoryTableViewController.swift in Sources */,
 				ADB1354A2418F996004BD4C8 /* Observables.swift in Sources */,
 				ADB135912419128E004BD4C8 /* CategoryInfo.swift in Sources */,
 				ADB1356E2418FA96004BD4C8 /* Router.swift in Sources */,
 				ADB1354B2418F996004BD4C8 /* Observable.swift in Sources */,
+				ADB135A124192518004BD4C8 /* FCLoadingDialog.swift in Sources */,
 				ADF0F17A2418F5AC00DA1CF0 /* AppDelegate.swift in Sources */,
 				ADB1357724190138004BD4C8 /* MaskViewModel.swift in Sources */,
-				ADB1357F24190315004BD4C8 /* FCLoadingDialog.swift in Sources */,
 				ADB1353D2418F858004BD4C8 /* MaskTableViewController.swift in Sources */,
 				ADB135572418FA56004BD4C8 /* BadResponseStatusCodeDecision.swift in Sources */,
 				ADB135652418FA96004BD4C8 /* APIError.swift in Sources */,
