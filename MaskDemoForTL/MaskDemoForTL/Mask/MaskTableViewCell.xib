@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="158" id="KGk-i7-Jjw" customClass="MaskTableViewCell" customModule="MaskDemoForTL" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="357" height="158"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="357" height="158"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AGB-4s-dZb">
+                        <rect key="frame" x="10" y="10" width="337" height="138"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="藥局：" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yi0-DN-RMW">
+                        <rect key="frame" x="20" y="20" width="317" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="地址：" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9uu-9g-pZO">
+                        <rect key="frame" x="20" y="52.5" width="317" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="電話：" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWG-IH-ucI">
+                        <rect key="frame" x="20" y="85" width="317" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="成年口罩數量：" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lpz-jc-BxB">
+                        <rect key="frame" x="20" y="117.5" width="317" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="lpz-jc-BxB" secondAttribute="bottom" constant="20" id="2TD-ec-Svm"/>
+                    <constraint firstItem="9uu-9g-pZO" firstAttribute="top" secondItem="Yi0-DN-RMW" secondAttribute="bottom" constant="12" id="4Na-fL-9AS"/>
+                    <constraint firstItem="yWG-IH-ucI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="6A8-ov-ATc"/>
+                    <constraint firstAttribute="trailing" secondItem="yWG-IH-ucI" secondAttribute="trailing" constant="20" id="A3R-0D-kVL"/>
+                    <constraint firstItem="lpz-jc-BxB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Agk-gV-CfL"/>
+                    <constraint firstItem="yWG-IH-ucI" firstAttribute="top" secondItem="9uu-9g-pZO" secondAttribute="bottom" constant="12" id="BAG-is-VVq"/>
+                    <constraint firstItem="AGB-4s-dZb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Cx3-YD-uX6"/>
+                    <constraint firstItem="9uu-9g-pZO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="KC6-Ee-ppf"/>
+                    <constraint firstItem="yWG-IH-ucI" firstAttribute="top" secondItem="9uu-9g-pZO" secondAttribute="bottom" constant="12" id="NcX-18-Ok4"/>
+                    <constraint firstItem="lpz-jc-BxB" firstAttribute="top" secondItem="yWG-IH-ucI" secondAttribute="bottom" constant="12" id="cIg-tW-Rwa"/>
+                    <constraint firstAttribute="trailing" secondItem="Yi0-DN-RMW" secondAttribute="trailing" constant="20" id="fID-sc-tSN"/>
+                    <constraint firstAttribute="trailing" secondItem="9uu-9g-pZO" secondAttribute="trailing" constant="20" id="fZU-xz-9p3"/>
+                    <constraint firstAttribute="trailing" secondItem="lpz-jc-BxB" secondAttribute="trailing" constant="20" id="h76-xX-YI6"/>
+                    <constraint firstAttribute="trailing" secondItem="AGB-4s-dZb" secondAttribute="trailing" constant="10" id="hSv-BO-fM5"/>
+                    <constraint firstItem="AGB-4s-dZb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="kDn-x6-O58"/>
+                    <constraint firstItem="Yi0-DN-RMW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="kll-Ls-doG"/>
+                    <constraint firstAttribute="bottom" secondItem="AGB-4s-dZb" secondAttribute="bottom" constant="10" id="naC-GT-WEX"/>
+                    <constraint firstItem="Yi0-DN-RMW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="z3d-9k-8IW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="addressLabel" destination="9uu-9g-pZO" id="2hz-le-clA"/>
+                <outlet property="borderView" destination="AGB-4s-dZb" id="uw9-qG-1Xj"/>
+                <outlet property="maskAdultLabel" destination="lpz-jc-BxB" id="Bsf-m4-9pY"/>
+                <outlet property="nameLabel" destination="Yi0-DN-RMW" id="2qv-yZ-ZoQ"/>
+                <outlet property="phoneLabel" destination="yWG-IH-ucI" id="mgy-Ea-Sel"/>
+            </connections>
+            <point key="canvasLocation" x="163.04347826086959" y="132.58928571428572"/>
+        </tableViewCell>
+    </objects>
+</document>
