@@ -5,4 +5,4 @@
 
 ### 資料來源 ###
 * rickhung76：[ComponentNetworkRouterDemo](https://github.com/rickhung76/ComponentNetworkRouterDemo)
-* API URL: [口罩公開資料API](https://raw.githubusercontent.com/kiang/pharmacies/master/json/points.json)
+* Open API URL:  [口罩公開資料API](https://raw.githubusercontent.com/kiang/pharmacies/master/json/points.json)
